@@ -1,8 +1,3 @@
-" Vim color scheme
-" Name:         blackboard.vim
-" Maintainer:   ratazzi.potts <ratazzi.potts@gmail.com> 
-" Link:         http://www.ratazzi.org
-
 :set background=dark
 highlight clear
 if version > 580
