@@ -58,7 +58,7 @@ else
     "hi Normal guifg=#eeeeee guibg=#000000
     hi Cursor guifg=Black guibg=Yellow
 
-    hi LineNr guifg=#333333 ctermfg=236
+    hi LineNr guifg=#ffffff ctermfg=236
     "hi LineNr guibg=#323232 guifg=#888888
     hi VertSplit guibg=#c2bfa5 guifg=grey40 gui=none ctermfg=241
     hi Folded guibg=black guifg=grey40 ctermfg=241
