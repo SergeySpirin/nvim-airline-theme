@@ -10,6 +10,12 @@ let g:colors_name = 'espiares'
 if !has('gui_running')
         hi Normal guibg=none ctermbg=none
 
+        hi CocInfoHighlight guifg=#1c1c1c guibg=#5fafd7 ctermfg=234 ctermbg=243
+        hi def link CocUnusedHighlight CocInfoHighlight
+        hi CocErrorHighlight guifg=#1c1c1c guibg=#ff8787 ctermfg=234 ctermbg=210
+
+        hi Pmenu ctermbg=gray guibg=gray
+
         hi LineNr guifg=#808080 ctermfg=244
         hi VertSplit guibg=#c2bfa5 guifg=grey40 gui=none ctermfg=241
         hi Folded guibg=black guifg=grey40 ctermfg=241
@@ -17,7 +23,7 @@ if !has('gui_running')
         hi IncSearch guibg=black guifg=yellow 
         hi ModeMsg guifg=goldenrod
         hi MoreMsg guifg=SeaGreen
-        hi NonText guifg=RoyalBlue guibg=#151825 ctermfg=234
+        hi NonText guifg=#808080 guibg=none ctermfg=242 ctermbg=none
         hi Question guifg=springgreen
         hi Search guibg=#0099ff guifg=White
         hi Visual gui=none guifg=khaki guibg=olivedrab

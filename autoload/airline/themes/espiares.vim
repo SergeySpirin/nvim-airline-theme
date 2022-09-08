@@ -13,7 +13,7 @@ let g:airline#themes#espiares#palette.normal_modified = {
 
 let s:airline_a_insert = [ '#00005f' , '#00dfff' , 17  , 45  ]
 let s:airline_b_insert = [ '#ffffff' , '#005fff' , 255 , 27  ]
-let s:airline_c_insert = [ '#ffffff' , '#000080' , 85  , 234  ]
+let s:airline_c_insert = [ '#9cffd3' , '#15141b' , 85  , 234  ]
 let g:airline#themes#espiares#palette.insert = airline#themes#generate_color_map(s:airline_a_insert, s:airline_b_insert, s:airline_c_insert)
 let g:airline#themes#espiares#palette.insert_modified = {
       \ 'airline_c': [ '#9cffd3' , '#15141b' , 85     , 234      , ''     ] ,
@@ -34,7 +34,7 @@ let s:airline_b_visual = [ '#000000' , '#ff5f00' , 232 , 202 ]
 let s:airline_c_visual = [ '#9cffd3' , '#15141b' ,234  , 85  ]
 let g:airline#themes#espiares#palette.visual = airline#themes#generate_color_map(s:airline_a_visual, s:airline_b_visual, s:airline_c_visual)
 let g:airline#themes#espiares#palette.visual_modified = {
-      \ 'airline_c': [ '#ffffff' , '#5f005f' , 85     , 234      , ''     ] ,
+      \ 'airline_c': [ '#9cffd3' , '#15141b' , 85     , 234      , ''     ] ,
       \ }
 
 
