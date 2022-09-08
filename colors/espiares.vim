@@ -10,9 +10,12 @@ let g:colors_name = 'espiares'
 if !has('gui_running')
         hi Normal guibg=none ctermbg=none
 
-        hi CocInfoHighlight guifg=#1c1c1c guibg=#5fafd7 ctermfg=234 ctermbg=243
-        hi def link CocUnusedHighlight CocInfoHighlight
-        hi CocErrorHighlight guifg=#1c1c1c guibg=#ff8787 ctermfg=234 ctermbg=210
+        if &rtp =~ 'coc.nvim'
+                hi CocInfoHighlight guifg=#1c1c1c guibg=#5fafd7 ctermfg=234 ctermbg=74
+                hi def link CocUnusedHighlight CocInfoHighlight
+                hi CocWarningHighlight guifg=#1c1c1c guibg=#afd75f ctermfg=234 ctermbg=140
+                hi CocErrorHighlight guifg=#1c1c1c guibg=#ff8787 ctermfg=234 ctermbg=210
+        endif
 
         hi Pmenu ctermbg=gray guibg=gray
 
