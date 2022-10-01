@@ -18,6 +18,9 @@ Plugin 'SergeySpirin/vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 
+" js improved highlighting
+Plugin 'maxmellon/vim-jsx-pretty'
+
 " autocomplete
 if has('nvim')
         Plugin 'neoclide/coc.nvim', { 'branch': 'master', 'do': 'yarn install --frozen-lockfile' }
@@ -40,11 +43,15 @@ set termguicolors
 filetype plugin indent on
 
 " tabs 
-set tabstop=8
-set shiftwidth=8
+set tabstop=4
+set shiftwidth=4
 set smarttab
 set expandtab
 set smartindent
+
+" PHP
+
+autocmd FileType javascript setlocal shiftwidth=8 softtabstop=8 expandtab smartindent autoindent
 
 " coc.nvim
 if &rtp =~ 'coc.nvim'
